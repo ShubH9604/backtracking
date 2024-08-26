@@ -1,7 +1,7 @@
 class BackTracking {
     
     //all possible arrangements (permutations)
-    public static void printPermutations(String str, String perm, int idx){
+    public static void printPermutations(String str, String perm, int idx){ 
         if (str.length() == 0){
             System.out.println(perm);
             return;
